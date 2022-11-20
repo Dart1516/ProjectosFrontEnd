@@ -4,15 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/computersforyou.css">
     <title>Contact Us</title>
 </head>
 <body>
-    Page in construction, please return 
-    <ol>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="FAQ.html">FAQ</a></li>
-        <li><a href="site-plan.html">Site Plan</a></li>
-    </ol>
+    <header>
+        <nav class="topnav">
+            <img class="logo" src="images/2.png" alt="logo">
+            <a href="index.html">Home</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="Contact_us.html">Contact US</a>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="This button dosen't work yet" name="search">
+                    <button type="submit"> <img class="lupa_logo" src="images/lupa3.png" alt="lupa"> </button>
+                  </form>
+              </div>
+        </nav>
+    </header>
     
-</body>
+        <main >
+            <div class="centrar_soporte" >
+                
+            <img class="imagen_soporte" src="images/ct4.jpg" alt="Mexendo no computador">
+            <h1 class="texto_e_imagen2">Contact Us</h1>
+            <img class="imagen_soporte2" src="images/cs2.png" alt="te atendemos">
+            </div>
+
+
+
+            <div id="feedback"></div>
+        <form class="form" action="/my-handling-form-page" method="post">
+            <ul class="ul">
+              <li>
+                <label class="label" for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label class="label" for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label class="label" for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+          </form>
+
+            
+        </main>
+    </div>
+    <footer>
+        <p>Computers For You 2022 - David Puche</p>
+        <p><a href="site-plan-rafting.html">About Us</a></p>
+        <p><a href="contactus.html">Buy a Computer</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img  src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img   src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img   src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    
+    </footer>
 </html>
