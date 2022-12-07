@@ -312,7 +312,7 @@ p {
     background: #343536;
   }
 
-  .search-container input[type=text2] {
+  .search-container input[type=search] {
     text-align: center;
     padding: 14px 200px;
     border: none;
@@ -372,7 +372,7 @@ p {
   }
 
 p{
-  line-height: 200%;;
+  line-height: 150%;;
 }
 
   /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
