@@ -1,14 +1,4 @@
-/* colors 
-gray #b1b6bf
-celeste #669fbb
-gris obscuro #343536
-negro #0b0b0b 
-rosa #b8728a
-purpura #796baf
-marron #433138
-gris claro #d4d1d3
 
-*/
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
@@ -17,10 +7,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #669fbb   ;
-  --secondary-color: #b8728a ;
-  --accent1-color: #796baf;
-  --accent2-color: #0b0b0b;
+  --primary-color: #0b0b0b   ;
+  --secondary-color: #343536 ;
+  --accent1-color: #d4d1d3;
+  --accent2-color: #b1b6bf;
 
   /* change the values below to your chosen font(s) 
   --heading-font: "IM Fell French Canon SC";
